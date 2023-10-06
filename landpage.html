@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Barbar Shop</title>
+     <link rel="stylesheet" href="style8.css">
+     <link rel="stylesheet"
+     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <meta name="viewport" content="width = device-width, initial-scale=1">
+     <link href="https://fonts.googleapis.com/css?
+     family=Kaushan+Script|Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<section id="banner">
+    <img src="logo.jpg" class="logo">
+    <div class="banner-text">
+    <h1> Hair Studio</h1>
+    <p>Style Your Hair Is Style Your Life</p>
+    <div class="banner-btn">
+       <a href="#"><span></span>Find Out</a>
+       <a href="#"><span></span>Read More</a>
+   </div>
+  </div>
+</section>
+
+<div id="sideNav">
+     <nav>
+     <ul>
+       <li><a href="#">HOME</a></li>
+       <li><a href="#">FEATURES</a></li>
+       <li><a href="#">SERVICES</a></li>
+       <li><a href="#">TESTIMONIALS</a></li>
+       <li><a href="#">MEET US</a></li>
+    </ul>
+    </nav>
+ </div>
+
+<div id="menuBtn">
+  <img src="menu.jpg" id="menu">
+</div>
+
+<section id="feature">
+<div class="title-text">
+<p> FEATURES</p>
+<h1> Why Choose Us</h1>
+</div>
+<div class="feature-box">
+    <div class="features">
+      <h1> Experienced Staff</h1>
+      <div class="features-desc">
+        <div class="feature-icon">
+         <i class="fa fa-shield"></i>   
+  
+        </div>
+        <div class= "feature-text">
+        <p>"Beautiful hair comes with beautiful care"</p>
+      </div>
+    </div>
+ 
+   <h1> Pre Booking Online</h1>
+      <div class="features-desc">
+        <div class="feature-icon">
+         <i class="fa fa-check-square-o"></i>   
+  
+        </div>
+        <div class= "feature-text">
+        <p> Please feel free to give us call or send message on 9077345667 Our experts will talk  with you </p>
+      </div>
+    </div>
+     <h1> Affordable Cost</h1>
+      <div class="features-desc">
+        <div class="feature-icon">
+         <i class="fa fa-inr"></i>   
+  
+        </div>
+        <div class= "feature-text">
+        <p>Ladies hair cut, Men's hair cut, hair Spa, Keratin Treatment, Smoothening, Botox Hair treatment</p>
+      </div>
+    </div>
+ </div>
+ 
+
+   <div class="features-img">
+       <img src="barbar-man.jpg">
+   </div>
+</div>
+
+</section>
+   <section id="service">
+      <div class="title-text">
+      <p>SERVICES</p>
+      <h1>We Provide Better</h1>
+      </div>
+      <div class="service-box">
+        <div class="single-service">
+          <img src="pic1.jpg">
+          <div class="overlay"></div> 
+          <div class="service-desc">
+              <h3> Hair Spa</h3>
+              
+          </div>        
+         
+        </div>
+        <div class="single-service">
+           <img src="pic2.jpg">
+            <div class="overlay"></div> 
+          <div class="service-desc">
+              <h3> Beard Trimming</h3>
+              
+          </div>
+
+        </div>
+        <div class="single-service">
+           <img src="pic3.jpg">
+           <div class="overlay"></div> 
+         <div class="service-desc">
+              <h3> Hair styling</h3>
+              
+          </div>
+
+        </div>
+        <div class="single-service">
+           <img src="pic4.jpg">
+            <div class="overlay"></div> 
+         <div class="service-desc">
+              <h3> Hair trimming</h3>
+              
+          </div>
+
+        </div>
+    </div>
+  </section>
+
+<section id= "footer">
+    
+    <div class="title-text">
+    <p>CONTACT</p>
+    <h2>Visit Shop Today</h2>
+    </div>
+<div class="footer-row">
+<div class="footer-left">
+  <h2>Opening Hours</h2>
+  <p><h3><i class="fa fa-clock-o"></i>Monday to Friday - 10am to 9pm</h3></p>
+  <p><h3><i class="fa fa-clock-o"></i>Saturday and Sunday - 9am to 10pm</h3></p>
+</div>
+<div class="footer-right">
+<h3> Get In Touch</h3>
+<p> 33B Circular Road,Bhawanipore, kolkata-700004<i class="fa fa-map-marker"></i></p>
+<p> Cutperfect78@gmail.com<i class="fa fa-paper-plane"></i></p>
+<p> +91 9778456767<i class="fa fa-phone"></i></p>
+  
+</div>
+</div>
+
+<div class="social-links">
+       <i class="fa fa-facebook"></i>
+       <i class="fa fa-instagram"></i>
+       <i class="fa fa-whatsapp"></i>
+       <i class="fa fa-youtube-play"></i>   
+</div>
+
+<script>
+var menuBtn= document.getElementById("menuBtn")
+var sideNav= document.getElementById("sideNav")
+var menu= document.getElementById("menu")
+
+sideNav.style.right ="-250px";
+
+menuBtn.onclick= function(){
+    if(sideNav.style.right =="-250px"){
+       sideNav.style.right ="0";
+       menu.src="close.jpg";
+    }
+
+   else{
+       sideNav.style.right ="-250px";
+       menu.src="menu.jpg";
+  }
+}
+</script>
+   
+</body>
+</html>
